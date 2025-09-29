@@ -15,6 +15,8 @@ This project implements a time-series forecasting pipeline using an LSTM neural 
 These metrics indicate the model explains approximately 86% of the variance on the test set, with an average absolute error of ~16 price units, demonstrating strong predictive accuracy.
 
 ---
+Live Demo 
+
 
 ## Project steps (how it works — end-to-end)
 
