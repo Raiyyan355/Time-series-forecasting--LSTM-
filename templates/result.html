@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ ticker }} Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="mb-4">{{ ticker }} Stock Price Forecast</h1>
+
+      <p>Last close price: <strong>{{ last_close }}</strong></p>
+      <p>First predicted price: <strong>{{ first_pred }}</strong></p>
+      <p>Last predicted price: <strong>{{ last_pred }}</strong></p>
+
+      <img class="img-fluid border" src="data:image/png;base64,{{ plot_base64 }}" alt="Forecast plot">
+
+      <div class="mt-4">
+        <a class="btn btn-secondary" href="{{ url_for('index') }}">Back</a>
+      </div>
+    </div>
+  </body>
+</html>
