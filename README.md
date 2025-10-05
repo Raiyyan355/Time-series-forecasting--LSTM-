@@ -11,9 +11,6 @@ This project implements a time-series forecasting pipeline using an LSTM neural 
 - MAE: **16.30**
 - RMSE: **21.29**
 - R²: **0.859**
-
-These metrics indicate the model explains approximately 86% of the variance on the test set, with an average absolute error of ~16 price units, demonstrating strong predictive accuracy.
-
 ---
 ## 🖥️ Live Demo
 ![image](https://github.com/Raiyyan355/Time-series-forecasting--LSTM-/blob/main/screenshot-1759143922485.png?raw=true)
