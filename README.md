@@ -33,7 +33,7 @@ This project implements a time-series forecasting pipeline using an LSTM neural 
 5. **Saving model & scaler**
    - After training, save the model in Keras format so the Flask app can load it:
      ```python
-     model.save('models/LSTM_model.keras')   # or 'models/saved_model.h5'
+     model.save('models/LSTM_model.keras')  
      ```
    - Save the scaler used during preprocessing (highly recommended):
      ```python
